@@ -14,7 +14,7 @@
 #
 
 # Build the openfunction binary
-FROM golang:1.19 as builder
+FROM golang:1.19 AS builder
 
 WORKDIR /workspace
 # Copy the Go Modules manifests
